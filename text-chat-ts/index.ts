@@ -43,15 +43,11 @@ async function main(): Promise<void> {
   const prompt = "Explain in one short sentence why carrots are healthy.";
 
   const response = await llm.invoke([{ role: "user", content: prompt }]);
-  const modelName =
-    typeof response.response_metadata?.model_name === "string"
-      ? response.response_metadata.model_name
-      : config.model;
 
   console.log("Text chat example");
   console.log("-----------------");
   console.log(`Base URL: ${config.baseURL}`);
-  console.log(`Model: ${modelName}`);
+  console.log(`Model: ${config.model}`);
   console.log(`Prompt: ${prompt}`);
   console.log(`Response: ${response.text.trim() || "(empty)"}`);
 }
