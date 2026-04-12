@@ -1,0 +1,11 @@
+.env
+
+# Generated dependencies and build output
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+
+# Local OS/editor files
+.DS_Store
