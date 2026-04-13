@@ -1,0 +1,21 @@
+{
+  "name": "text-chat-stream-langchain-example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --outDir dist --noEmit false",
+    "start": "node dist/index.js",
+    "dev": "tsx index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.75",
+    "@langchain/openai": "^0.6.11",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
