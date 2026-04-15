@@ -1,6 +1,6 @@
 # LangChain Model Tests
 
-Small standalone templates for testing an OpenAI-compatible API across four common request styles using LangChain's OpenAI integrations.
+Small standalone templates for testing an OpenAI-compatible API across common request styles, including streaming chat, using LangChain's OpenAI integrations.
 
 Each folder is self-contained and copyable:
 
@@ -20,6 +20,8 @@ Folders:
 - [embedding-similarity-py](./embedding-similarity-py)
 - [text-chat-ts](./text-chat-ts)
 - [text-chat-py](./text-chat-py)
+- [text-chat-stream-ts](./text-chat-stream-ts)
+- [text-chat-stream-py](./text-chat-stream-py)
 - [text-completion-ts](./text-completion-ts)
 - [text-completion-py](./text-completion-py)
 - [vision-chat-ts](./vision-chat-ts)
